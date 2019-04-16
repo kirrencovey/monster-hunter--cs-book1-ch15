@@ -2,7 +2,7 @@ using System;
 
 namespace monster_killer
 {
-    public class Demon : IFireKills, ISilverKills, IWaterKills
+    public class Demon : Monster, IFireKills, ISilverKills, IWaterKills
     {
         public void Burn (string attack)
         {

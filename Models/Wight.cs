@@ -2,7 +2,7 @@ using System;
 
 namespace monster_killer
 {
-    public class Wight : ISilverKills
+    public class Wight : Monster, ISilverKills
     {
         public void Stab (string attack)
         {

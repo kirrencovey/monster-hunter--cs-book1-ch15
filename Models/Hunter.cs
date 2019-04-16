@@ -9,7 +9,7 @@ public class Hunter
         public string LastName { get; set; }
 
         public List<string> Weapons { get; } = new List<string>() {
-            "Silver", "Fire", "Holy Water"
+            "Silver", "Fire", "Holy Water", "Silly Putty"
         };
 
         public Hunter (string first, string last) {
@@ -27,6 +27,10 @@ public class Hunter
 
         public void WieldSilver (ISilverKills monster) {
             monster.Stab("Silver");   // Stabs with silver knife
+        }
+
+        public void WieldSillyPutty (Monster monster) {
+            monster.Kill("Silly Putty");   // Stabs with silver knife
         }
 
         public override string ToString () {

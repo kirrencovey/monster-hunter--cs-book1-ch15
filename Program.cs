@@ -14,10 +14,18 @@ namespace monster_killer
             Mummy tuts = new Mummy();
             Vampire drac = new Vampire();
             Demon todd = new Demon();
+            Zombie fred = new Zombie();
+            Ghoul gary = new Ghoul();
+            Ghast lou = new Ghast();
+            Wight jim = new Wight();
 
             VonRimmersmark.Ignite(tuts);
             VonRimmersmark.WieldSilver(drac);
             VonRimmersmark.SplashWater(todd);
+            VonRimmersmark.WieldSillyPutty(fred);
+            VonRimmersmark.SplashWater(gary);
+            VonRimmersmark.WieldSillyPutty(lou);
+            VonRimmersmark.WieldSilver(jim);
 
         }
     }
